@@ -1,11 +1,9 @@
 public class Main {
 
-    // Calculate salary by multiplying hours with rate.
     public static int calculateSalary(int hours, int rate) {
         return hours * rate;
     }
 
-    // Return salary category according to salary.
     public static String getCategory(int salary) {
         if (salary >= 50000) {
             return "High";
@@ -16,7 +14,6 @@ public class Main {
         }
     }
 
-    // Check whether hours are between 0 and 60.
     public static boolean isValid(int hours) {
         return hours >= 0 && hours <= 60;
     }
